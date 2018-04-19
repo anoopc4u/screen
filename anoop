@@ -93,7 +93,7 @@ object ReadCSV {
   def main(arg: Array[String]) {
     println("Application Start Time ==> " + new SimpleDateFormat("MM/dd/yyyy HH:mm:ss").format(Calendar.getInstance().getTime()))
     val readCSVObj = new ReadCSV()
-    //var avgHeads = readCSVObj.getAvgColumn()
+    var avgHeads = readCSVObj.getAvgColumn()
     readCSVObj.wordCount()
     println("Application End Time ==> " + new SimpleDateFormat("MM/dd/yyyy HH:mm:ss").format(Calendar.getInstance().getTime()))
 
